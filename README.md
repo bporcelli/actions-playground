@@ -1,3 +1,3 @@
 # Actions Playground
 
-GitHub Actions Workflows developed for a LinkedIn Learning course.
+Basic GitHub Actions Workflows developed for a LinkedIn Learning course.
