@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test hello.py
-        runs: python hello.py | grep "Hello, world" || exit 1
+        run: python hello.py | grep "Hello, world" || exit 1
   build:
     needs: [test]
     name: Build
