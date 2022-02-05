@@ -1,0 +1,10 @@
+name: Challenge 4
+on: [push]
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use Hello Action
+        uses: bporcelli/hello-action@master
+        with:
+          name: 'Brett'
